@@ -16,6 +16,7 @@ export default defineConfig({
             '@shared': resolve(__dirname, 'src/shared'),
             '@domain': resolve(__dirname, 'src/domain'),
             '@application': resolve(__dirname, 'src/application'),
+            '@infra': resolve(__dirname, 'src/infrastructure'),
             '@infrastructure': resolve(__dirname, 'src/infrastructure'),
             '@composition': resolve(__dirname, 'src/composition'),
         },
